@@ -30,6 +30,10 @@ introdução ao fragment e aplicações
 
 Error Boudary e aplicações, com exemplo
 
+## Módulo 3 - Error Boundary
+
+Render Props, aplicações com exemplos
+
 ## Instalação
 
 1. clone o repositório `git clone https://github.com/4lexRossi/praticasAvancadasReactJS.git`
