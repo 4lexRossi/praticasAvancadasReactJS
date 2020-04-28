@@ -34,6 +34,10 @@ Error Boudary e aplicações, com exemplo
 
 Render Props, aplicações com exemplos
 
+## Módulo 4 - TypeChecking com PropTypes
+
+typechecking capturar bugs com checagem de tipos nativas, e exercicio proposto
+
 ## Instalação
 
 1. clone o repositório `git clone https://github.com/4lexRossi/praticasAvancadasReactJS.git`
