@@ -4,14 +4,14 @@ import Persons from './Persons';
 class App extends Component {
 
   state ={
-    loading: false
+    loading: false,
+    actived: true
   }
 
   componentDidMount() {
     setTimeout(() => {
       this.setState({
         loading: true,
-        actived: true
       })
     }, 3000)
   }
@@ -24,7 +24,7 @@ class App extends Component {
  
   render () {
 
-    const posts = [{
+    const addPersons = [{
       person: 'Alex',
       age: '34',
       gender: 'male'
@@ -38,7 +38,7 @@ class App extends Component {
       <div>
         <button onClick={this.onRemove}>Remover Component</button>
         {this.state.actived && (
-        <Persons posts={posts} loading={this.state.loading} />
+        <Persons addPersons={addPersons} loading={this.state.loading} />
         )}
       </div>
     )

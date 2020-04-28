@@ -9,7 +9,12 @@ O curso consiste em aplicações ReactJS
 # aula 1 
 ## Ciclos De Vida do ReactJS
 
-mostra todo ciclo da aplicação, segue nesse repositório o desafio final da aula mostrando o ciclo de vida completo
+Todo ciclo da aplicação, segue nesse repositório o desafio final da aula mostrando o ciclo de vida completo
+
+# aula 2
+## Ciclos De Vida do ReactJS usando Hooks
+
+Todo ciclo da aplicação, segue nesse repositório o desafio final da aula mostrando o ciclo de vida completo, utilizando Hooks
 
 ## Instalação
 
