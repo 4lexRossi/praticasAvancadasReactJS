@@ -30,7 +30,7 @@ introdução ao fragment e aplicações
 
 Error Boudary e aplicações, com exemplo
 
-## Módulo 3 - Error Boundary
+## Módulo 3 - Render Props
 
 Render Props, aplicações com exemplos
 
