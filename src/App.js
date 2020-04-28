@@ -1,48 +1,21 @@
-import React, { Component } from 'react';
-import Persons from './Persons';
+import React, { useState, useEffect } from 'react';
+import { ThemeContext, themes } from './Theme';
+import Card from './Card';
 
-class App extends Component {
+function App () {
+  const [token, setToken] = useState()
 
-  state ={
-    loading: false,
-    actived: true
-  }
-
-  componentDidMount() {
+  useEffect(() => {
     setTimeout(() => {
-      this.setState({
-        loading: true,
-      })
-    }, 3000)
-  }
+      setToken('2145632')
+    }, 4000)
+  }, [setToken])
 
-  onRemove = () => {
-    this.setState({
-      actived: false
-    })
-  }
- 
-  render () {
-
-    const addPersons = [{
-      person: 'Alex',
-      age: '34',
-      gender: 'male'
-    },{
-      person: 'Elis',
-      age: '32',
-      gender: 'female'
-    }]
-
-    return (
-      <div>
-        <button onClick={this.onRemove}>Remover Component</button>
-        {this.state.actived && (
-        <Persons addPersons={addPersons} loading={this.state.loading} />
-        )}
-      </div>
-    )
-  }
+  return (
+    <ThemeContext.Provider value={{ ...themes.primary, token }}>
+      <Card />
+    </ThemeContext.Provider>
+  )
 }
 
 export default App
