@@ -38,6 +38,10 @@ Render Props, aplicações com exemplos
 
 typechecking capturar bugs com checagem de tipos nativas, e exercicio proposto
 
+## Módulo 5 - Técnicas com components e DOM
+
+Utilizando Refs e manipulando a DOM
+
 ## Instalação
 
 1. clone o repositório `git clone https://github.com/4lexRossi/praticasAvancadasReactJS.git`
