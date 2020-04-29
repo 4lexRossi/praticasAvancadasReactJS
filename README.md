@@ -42,6 +42,12 @@ typechecking capturar bugs com checagem de tipos nativas, e exercicio proposto
 
 Utilizando Refs e manipulando a DOM
 
+<h1 align="center"> Aula 3 - Organizando o Projeto </h1>
+
+## Módulo 1 - O que é e como trabalhar com Dumb Components
+
+introdução ao Dumb Component e aplicações
+
 ## Instalação
 
 1. clone o repositório `git clone https://github.com/4lexRossi/praticasAvancadasReactJS.git`
