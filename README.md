@@ -48,6 +48,11 @@ Utilizando Refs e manipulando a DOM
 
 introdução ao Dumb Component e aplicações
 
+## Módulo 2 - O que é e como trabalhar com Smart Components
+
+introdução ao Smart Component e aplicações
+
+
 ## Instalação
 
 1. clone o repositório `git clone https://github.com/4lexRossi/praticasAvancadasReactJS.git`
