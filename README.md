@@ -6,7 +6,7 @@ Conheça mais sobre a plataforma com cursos gratuitos https://digitalinnovation.
 
 O curso consiste em aplicações ReactJS
 
-<h1 align="center"> Aula 1 - Aprofundamento sobre o ciclo de vida do React </h1>
+# Aula 1 - Aprofundamento sobre o ciclo de vida do React
 
 ## Módulo 1 - Ciclos De Vida do ReactJS
 
@@ -20,7 +20,7 @@ Todo ciclo da aplicação, mostra o ciclo de vida do React, utilizando Hooks
 
 Como Passar valores de uma forma global dentro de uma aplicação sem utilizar componentes intermediários
 
-<h1 align="center"> Aula 2 - Técnicas com componentes e DOM </h1>
+# Aula 2 - Técnicas com componentes e DOM
 
 ## Módulo 1 - Porque trabalhar com Fragments
 
